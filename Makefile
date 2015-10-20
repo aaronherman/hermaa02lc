@@ -5,7 +5,7 @@ lower.o: lower.c input.c
 	cc -c lower.c
 	
 input.o: input.c lower.c
-	cc -c input.o
+	cc -c input.c
 
 clean:
 	rm *.o

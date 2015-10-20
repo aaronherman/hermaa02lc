@@ -5,6 +5,6 @@ int lower(char c) {
 		c = c -32;
 	if (c >= 'a' && c <= 'z')
 		return 0;
-	return 1;
+	return c;
 	
 }

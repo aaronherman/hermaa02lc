@@ -9,4 +9,4 @@ input.o: input.c lower.c
 
 clean:
 	rm *.o
-	rm lower
+	rm input

@@ -1,5 +1,5 @@
-#ifndef input_c
-#define input_c
-int input_c(char c);
+#ifndef lower_c
+#define lower_c
+int lower_c(char c);
 
 #endif

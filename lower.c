@@ -1,14 +1,10 @@
-#include <stdio.h>
+#include "lower.h"
 
-/* when called, this will  subtract 32 from the variable*/
-
-void lower(char* arr) {
-  
-  int len = strlen(arr);
-  for (int k=0; k<len; k++) {
-    printf("%c",arr[k]);
-  }
+int lower(char c) {
+	if (c >= 'A' && c <= 'Z')
+		c = c -32;
+	if (c >= 'a' && c <= 'z')
+		return 0;
+	return 1;
+	
 }
-
-
-

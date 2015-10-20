@@ -1,12 +1,10 @@
 #!/bin/bash
 
-for filename in *.txt
-do
-  if [ -f "$filename"]
-  then
-    #if filename is in the directory, do work
-    #cat file.txt | cprogram
-  else
-    #script should print a usage statement to the screen along with documentation on how to use lc
-  fi
-done
+
+if [ ] #two arguments given
+then
+  #if filename is in the directory, do work
+  lower < $1 > $2
+else
+  ECHO file1 will be read from, and file2 will be the lower case equilivant of file1
+fi

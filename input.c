@@ -1,11 +1,6 @@
 #include <stdio.h>
-#include <string.h>
-/* this will read from standard input and lowercase */
+#include "input.c"
 
-void lower(char* arr) {
-  
-  int len = strlen(arr);
-  for (int k=0; k<len; k++) {
-    printf("%c",arr[k]);
-  }
+int main(int argc, char* argv[]) {
+
 }

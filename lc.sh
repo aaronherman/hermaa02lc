@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-if [ ] #two arguments given
+if (( $# < 2 ))
 then
   #if filename is in the directory, do work
   lower < $1 > $2

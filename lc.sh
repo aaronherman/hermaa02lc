@@ -1,10 +1,12 @@
 #!/bin/bash
 
+echo $1 $2
 
-if (( $# < 2 ))
+file1=$1
+if [ -a $file1 ] && [ $2 ];
 then
   #if filename is in the directory, do work
-  lower < $1 > $2
+  input  < $1 > $2
 else
   ECHO file1 will be read from, and file2 will be the lower case equilivant of file1
 fi

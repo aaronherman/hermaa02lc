@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo $1 $2
+make
 
 file1=$1
 if [ -a $file1 ] && [ $2 ];
